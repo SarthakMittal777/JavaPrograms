@@ -1,0 +1,2 @@
+class swap_alternates {
+}
