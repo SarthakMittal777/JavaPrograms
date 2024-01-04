@@ -26,8 +26,8 @@ public class Sarthak_Max_Min {
         {
             min=c;
         }
-        System.out.println("The maximum number is "+max);
-        System.out.println("The minimum number is "+min);
+        System.out.println("The maximum is "+max);
+        System.out.println("The minimum  is "+min);
         System.out.println("total "+(a+b+c));
     }
    
