@@ -21,3 +21,4 @@ public class Sarthak_Fibocheck {
             System.out.println("Not a Fibonacci Number");
         }
 }
+}
