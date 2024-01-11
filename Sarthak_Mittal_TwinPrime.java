@@ -5,7 +5,7 @@ public class Sarthak_Mittal_TwinPrime {
         int a=2;
         int b=100;
         int i,j;
-        for(i=a;i<=b;i++)
+        for(i=2;i<=100;i++)
         {
             for(j=2;j<i;j++)
             {
