@@ -1,4 +1,7 @@
 public class Sarthak_Classes_TrafficLight {
+    //Write a Java program to create class called &quot;TrafficLight&quot; with attributes for color and
+//duration, and methods to change the color and check for red or green and set the default
+//colors using constructor.
     private String color;
     private int duration;
 
