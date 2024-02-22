@@ -1,28 +1,43 @@
-
-public interface Fly {
+interface Fly {
     void fly();
 }
 
-public interface Walk {
+interface Walk {
     void walk();
 }
 
-public class Hummingbird implements Fly {
-    @Override
+class FlyingBird {
     public void fly() {
-        System.out.println("Hummingbird is flying");
+        System.out.println("Flying");
+    }
+
+    public void walk() {
+        System.out.println("Walking");
     }
 }
 
-public class Sparrow implements Fly, Walk {
-    @Override
+class FlyingOnlyBird implements Fly {
     public void fly() {
-        System.out.println("Sparrow is flying");
+        System.out.println("Flying");
     }
+}
 
-    @Override
+class WalkingOnlyBird implements Walk {
     public void walk() {
-        System.out.println("Sparrow is walking");
+        System.out.println("Walking");
     }
-    
+}
+
+public class sarthak_abstract_birds {
+    public static void main(String[] args) {
+        FlyingBird hummingbird = new FlyingBird();
+        hummingbird.fly();
+        hummingbird.walk();
+
+        FlyingOnlyBird sparrow = new FlyingOnlyBird();
+        sparrow.fly();
+
+        WalkingOnlyBird penguin = new WalkingOnlyBird();
+        penguin.walk();
+    }
 }
