@@ -10,6 +10,7 @@ public class sarthak_calculator {
         });
     }
 
+    
     private static void createAndShowGUI() {
         JFrame frame = new JFrame("Simple Calculator");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
